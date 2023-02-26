@@ -9,6 +9,7 @@ import card8 from "../asset/img/Ellipse8.png"
 
 function Popular() {
     return (
+        <div className="bodypopular">
         <div className="container-popular">
             <h2>TOP PODCAST</h2>
             <div className="list-wraper">
@@ -45,6 +46,7 @@ function Popular() {
                     <p>Jhiehe</p>
                 </div>
             </div>
+        </div>
         </div>
     )
 };

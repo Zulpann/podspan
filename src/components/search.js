@@ -1,4 +1,5 @@
 import Profile from "../asset/img/user.png"
+import IconSearch from "../asset/img/searchbig.png"
 
 function search() {
     return(
@@ -14,7 +15,7 @@ function search() {
                 </div>
                 <div className="wraper-search-middle">
                     <div className="seacrh-engine">
-                        <div className="image-search"></div>
+                        <img src={IconSearch} className="image-search"></img>
                         <div className="int"><input placeholder="search"></input></div>
                     </div>
                 </div>
