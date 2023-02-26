@@ -1,3 +1,5 @@
+import Profile from "../asset/img/user.png"
+
 function search() {
     return(
         <div className="search-container">
@@ -5,9 +7,9 @@ function search() {
                 <div className="wraper-search-left">
                     <p>Popular</p>
                     <div>
-                        <div className="satu"></div>
-                        <div className="dua"></div>
-                        <div className="tiga"></div>
+                        <img src={Profile} className="satu"></img>
+                        <img src={Profile} className="dua"></img>
+                        <img src={Profile} className="tiga"></img>
                     </div>
                 </div>
                 <div className="wraper-search-middle">
