@@ -126,9 +126,8 @@ header {
 .headerleft .headerleft-top .irama {
   width: 200px;
 }
-.headerleft .headerleft-bottom {
-
-}
+/* .headerleft .headerleft-bottom {
+} */
 .headerleft .headerleft-bottom h2 {
   font-size: 150px;
   letter-spacing: -6px;
@@ -272,13 +271,14 @@ header {
   font-weight: 400;
  }
 /* Styling End popular */
-/* Styling Start categories  */
+/* Styling Start categories */
 .body-categories {
   background-color: #C3195D;
 }
 .container-categories {
   max-width: 960px;
   margin: auto;
+  padding-bottom: 60px;
 }
 .container-categories .categories {
   padding: 0 10px;
@@ -290,11 +290,11 @@ header {
   padding-top: 20px;
   margin-bottom: 10px;
 }
-.container-categories .categories .list-cstegories {
+.container-categories .categories .list-cstegories,.list-topsong {
   display: flex;
   justify-content: space-around;
 }
-.container-categories .categories .list-cstegories .card-categories {
+.container-categories .categories .list-cstegories .card-categories,.card-topsong {
  display: flex;
  padding: 14px 0px;
  margin: 5px;
@@ -305,11 +305,38 @@ header {
  align-items: center;
  gap: 10px;
  }
-.container-categories .categories .list-cstegories img {
+.container-categories .categories .list-cstegories img,.img-topsong {
   width: 86%;
 }
-.container-categories .categories .list-cstegories p {
+.container-categories .categories .list-cstegories p,.paraf-topsong {
   font-size: 1rem;
   font-weight: 400;
   color: white;
 }
+/* Styling End categories */
+/* Styling Start TopSong */
+.body-topsong {
+  background-color: #680747;
+}
+.container-topsong {
+  padding: 20px 10px;
+  max-width: 960px;
+  margin: auto;
+  padding-bottom: 60px;
+}
+.container-topsong .nav-topsong {
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-topsong .nav-topsong h2 {
+  color: white;
+  font-weight: 500;
+  font-size: 22px;
+}
+.container-topsong .nav-topsong a {
+  text-decoration: none;
+  color: white;
+}
+/* Styling End TopSong */
